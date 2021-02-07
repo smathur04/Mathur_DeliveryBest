@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head><!--The Head tag contains the link to my css stylesheet and the page title-->
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+      <title>DeliveryBest</title>
+    </head>
+    
+    <body>
+    
+    <!--Code for the Jumbotron, it specifies color, text, and background-->
+    <section class="jumbotron">
+      <center><h1>DeliveryBest</h1></center>
+    </section>
+    <br>
+    <!--Code for all rows of my activities/projects underneath the navbar-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <center><!--Uber Row Code-->
+            <img style="border:6px inset black;" src="../static/Images/uber.jpg" height=200 width=250/>
+            <h3 style="padding-top:20px" class="card-title">Uber Eats</h3>
+            <p class="card-title">
+              The price of one McDonald's Bacon Egg Cheese Biscuit Meal from Uber Eats is currently {{uber}}
+            </p>
+          </center>
+          <br>
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <center><!--DoorDash Row Code-->
+            <img style="border:6px inset black;" src="../static/Images/dash.jpg" height=200 width=250/>
+            <h3 style="padding-top:20px" class="card-title">DoorDash</h3>
+            <p class="card-title">
+              The price of one McDonald's {{door}} from DoorDash as of now.  
+            </p>
+          </center>
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <center><!--Grubhub Row Code-->
+            <img style="border:6px inset black;" src="../static/Images/grub.jpg" height=200 width=250/>
+            <h3 style="padding-top:20px" class="card-title">Grubhub</h3>
+            <p class="card-title"> 
+              The price of one McDonald's Bacon Egg Cheese Biscuit Meal from Grubhub is currently {{grub}}
+            </p>
+          </center>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <!--Creates a footer-->
+    <footer class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    </body>
+</html>
