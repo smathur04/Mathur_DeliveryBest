@@ -14,7 +14,8 @@ THIS CODE WILL ONLY WORK IF VSCODE MEETS ALL OF THE STEPS AND REQUIREMENTS BELOW
 THIS CODE WILL ONLY WORK IF THE INTEGRATED TERMINAL HAS NO BUGS WHILE RUNNING
 
 Steps for Execution:
-Add the folder from the master branch to your device (through git or download)
+Download Chrome WebDriver to your device's path 
+Add the github folder from the master branch to your device (through git or download)
 Open the folder in VSCODE
 Navigate to app.py in the folder called DeliveryBest_Hunag_Mathur_Xu (Inside the env folder itself)
 Click to open app.py in the editor
