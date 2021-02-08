@@ -14,31 +14,31 @@ THIS CODE WILL ONLY WORK IF VSCODE MEETS ALL OF THE STEPS AND REQUIREMENTS BELOW
 THIS CODE WILL ONLY WORK IF THE INTEGRATED TERMINAL HAS NO BUGS WHILE RUNNING
 
 Steps for Execution:
-1. Download Chrome WebDriver to your device's path 
+1. Download Chrome WebDriver to your device's path (if not already downloaded)
 2. Add the github folder from the master branch to your device (through git or download)
-Open the folder in VSCODE
-Navigate to app.py in the folder called DeliveryBest_Hunag_Mathur_Xu (Inside the env folder itself)
-Click to open app.py in the editor
-Check the bottom left of your screen to see if when you open the python file something starts loading
-After it finishes loading it should say Python 64 bit ("env")
-Click on Python 64 bit ("env")
-Make sure your interpreter path is Python 64 bit ("env")
-Right click on app.py
-Click open in integrated terminal
-Change the terminal to cmd if needed
-Make sure all libraries are imported (use pip install if needed)
-Type the following: flask run
-Click on the link that appears in the terminal (http://127.0.0.1:5000/)
-Wait for the site to load and enjoy
+3. Open the folder in VSCODE
+4. Navigate to app.py in the folder called DeliveryBest_Hunag_Mathur_Xu (Inside the env folder itself)
+5. Click to open app.py in the editor
+6. Check the bottom left of your screen to see if when you open the python file something starts loading
+7. After it finishes loading it should say Python 64 bit ("env")
+8. Click on Python 64 bit ("env")
+9. Make sure your interpreter path is Python 64 bit ("env")
+10. Right click on app.py
+11. Click open in integrated terminal
+12. Change the terminal to cmd if needed
+13. Make sure all libraries are imported (use pip install if needed)
+14. Type the following: flask run
+15. Click on the link that appears in the terminal (http://127.0.0.1:5000/)
+16. Wait for the site to load and enjoy
 
 Running Repeatedly OR Dealing With Terminal/Site Errors:
-Close the website tab
-Click Ctrl C in the terminal
-Close all running terminals
-Right click on app.py
-Click open in integrated terminal
-Change the terminal to cmd if needed
-Make sure all libraries are imported (use pip install if needed)
-Type the following: flask run
-Click on the link that appears in the terminal (http://127.0.0.1:5000/)
-Wait for the site to load and enjoy
+1. Close the website tab
+2. Click Ctrl C in the terminal
+3. Close all running terminals
+4. Right click on app.py
+5. Click open in integrated terminal
+6. Change the terminal to cmd if needed
+7. Make sure all libraries are imported (use pip install if needed)
+8. Type the following: flask run
+9. Click on the link that appears in the terminal (http://127.0.0.1:5000/)
+10. Wait for the site to load and enjoy
